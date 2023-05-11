@@ -13,6 +13,7 @@ public class Test02 {
 		}
 		System.out.println("=" + total);
 		
+		
 	}
 	
 
