@@ -11,6 +11,7 @@ public class Test01 {
 				max=array[i];
 		}
 			System.out.println("max: " + max);
+			
 	}
 
 }
