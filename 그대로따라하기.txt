@@ -1,0 +1,33 @@
+D드라이브에서 마우스 오른쪽 키를 눌러 Git Bash Here를 클릭
+
+폴더 형태로 가져오기 : $ git clone https://github.com/ashram7/JAVA1.git  eclipse-jee
+디렉토리 이동 : $ cd eclipse-jee
+깃 마스터로 세팅 : $ git config --global user.email "ashram7@hanmail.net"
+$ git config --global user.name "ashram7"
+$ git commit -m "first created"
+$ git remote add origin https://github.com/ashram7/JAVA1.git (이부분은 안해도 됨 : remote origin already exists.)
+
+##################################################################################################
+브랜치 branch 사용(프로젝트 작업)
+$ git branch : 현재의 브랜치 목록을 살펴보자.
+$ git branch person : person이라는 브랜치를 생성
+$ git checkout person : person으로 브랜치 지점 이동  
+person 상태로 작업을 한다.
+$ git add .
+$ git commit -m "person first working"
+$ git push origin person
+##################################################################################################
+깃 허브에서 확인후 marge 한다. (sign in 해야 함)
+초록색 버튼을 세 번 눌러준다. (빨리 적용이 안될 경우엔 해당 레파지토리 JAVA1의 master옆에 있는 branches를 눌러서 확인한다.)
+##################################################################################################
+master도 작업을 한다. ($ git checkout master)
+$ git pull origin master
+$ git add .
+$ git commit -m "master changing a lot of things"
+$ git push origin master
+##################################################################################################
+person도 작업을 한다. ($ git checkout person)
+$ git pull origin master
+$ git add .
+$ git commit -m "person modify just little bit"
+$ git push origin person
