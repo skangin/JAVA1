@@ -1,0 +1,17 @@
+package sec04.exam02;
+
+public class Child extends Parent{
+	private String name;
+	
+	public Child() {
+		// super() - Parent(); 가 숨어있다
+		this("홍길동");
+		System.out.println("Child() call");
+	}
+	
+	public Child(String name) {
+		this.name= name;
+		System.out.println("Child(String name) call");
+		
+	}
+}
