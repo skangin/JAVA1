@@ -4,8 +4,9 @@ import sec01.exam07.pack1.A;
 
 public class D extends A{
 	public D() {
-		super(); 
+		super();
 		this.field = "value";
-		this.method();
+		this.method();		
 	}
+
 }

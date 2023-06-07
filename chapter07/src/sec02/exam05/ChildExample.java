@@ -8,12 +8,12 @@ public class ChildExample {
 		parent.method1();
 		parent.method2();
 		
-		//parent.field2 = "data2";
-		//parent.method3();
+		//parent.field2 = "data2"; (X)
+		//parent.method3(); (X)
 		
-		Child child = (Child)parent;
-		child.field2 = "data2";
-		child.method3();
+		Child child = (Child) parent;
+		child.field2 = "data2";  // (O)
+		child.method3(); // (O)
 	}
 
 }

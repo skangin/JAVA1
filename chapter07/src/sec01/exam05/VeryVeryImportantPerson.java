@@ -1,6 +1,6 @@
 package sec01.exam05;
 
-//public class VeryVeryImportantPerson extends Member
-public class VeryVeryImportantPerson{
+//public class VeryVeryImportantPerson extends Member{
+public class VeryVeryImportantPerson {
 
 }

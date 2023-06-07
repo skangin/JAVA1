@@ -14,10 +14,10 @@ public class PromotionExample {
 		A a4 = e;
 		
 		B b1 = d;
-		C c1 = e;
-		
+		C c1 = e;		
+
 		//B b3 = e;
-		//C c2 = d;
+		//C c2 = d;		
 	}
 
 }

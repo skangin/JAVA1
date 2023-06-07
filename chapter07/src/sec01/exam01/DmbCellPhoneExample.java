@@ -14,10 +14,10 @@ public class DmbCellPhoneExample {
 		dmbCellPhone.sendVoice("여보세요");
 		dmbCellPhone.receiveVoice("안녕하세요! 저는 홍길동인데요");
 		dmbCellPhone.sendVoice("아~ 예 반갑습니다.");
-		dmbCellPhone.hangUp();
+		dmbCellPhone.hangUp();	
 		dmbCellPhone.turnOnDmb();
 		dmbCellPhone.changeChannelDmb(12);
-		dmbCellPhone.turnOffDmb();
+		dmbCellPhone.turnOffDmb();		
 	}
 
 }

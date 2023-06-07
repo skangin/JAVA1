@@ -4,14 +4,14 @@ public class Child extends Parent{
 	private String name;
 	
 	public Child() {
-		// super() - Parent(); 가 숨어있다
+		//super();
 		this("홍길동");
 		System.out.println("Child() call");
 	}
 	
 	public Child(String name) {
-		this.name= name;
+		//super();
+		this.name = name;
 		System.out.println("Child(String name) call");
-		
 	}
 }

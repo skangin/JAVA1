@@ -7,7 +7,7 @@ public class AnimalExample {
 		Cat cat = new Cat();
 		dog.sound();
 		cat.sound();
-		System.out.println("-------");
+		System.out.println("-----");
 		
 		//변수의 자동 타입 변환
 		Animal animal = null;
@@ -15,16 +15,15 @@ public class AnimalExample {
 		animal.sound();
 		animal = new Cat();
 		animal.sound();
-		System.out.println("--------");
+		System.out.println("-----");
 		
 		//매개변수의 자동 타입 변환
 		animalSound(new Dog());
 		animalSound(new Cat());
-
 	}
-	
+
 	public static void animalSound(Animal animal) {
 		animal.sound();
-	}
-
+	}	
+	
 }
