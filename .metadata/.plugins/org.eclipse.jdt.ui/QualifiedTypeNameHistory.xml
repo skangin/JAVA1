@@ -5,4 +5,8 @@
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="sec06.exam02.hankook.SnowTire"/>
 <fullyQualifiedTypeName name="sec06.exam02.kumho.BigWidthTire"/>
+<fullyQualifiedTypeName name="sec01.exam02.Name"/>
+<fullyQualifiedTypeName name="sec02.exam01.A.B"/>
+<fullyQualifiedTypeName name="sec02.exam01.A.C"/>
+<fullyQualifiedTypeName name="sec02.exam06.Button.OnClickListener"/>
 </qualifiedTypeNameHistroy>
